@@ -18,7 +18,6 @@ public class ApplicationConfigController {
 	private String dbUrl;
 	
 	
-	
 	@GetMapping("/config")
 	public String getDbUrl() {
 		
